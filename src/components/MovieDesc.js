@@ -77,7 +77,7 @@ class MovieDesc extends React.Component{
               <ReactStars 
                 className ='star' 
                 count = {5}
-                size ={24}
+                size ={35}
                 color = {'rgb(212,175,55)'}
                 value = {Number(this.state.movie.rating)}
                 edit = {false} />

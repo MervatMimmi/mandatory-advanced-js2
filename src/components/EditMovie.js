@@ -137,8 +137,7 @@ class EditMovie extends React.Component{
                  color = {'rgb(212,175,55)'}
                  value = {Number(this.state.movie.rating)}
                  onChange = {this.onChangeRating} />
-                 {this.state.movie.rating}
-                 
+                 {this.state.movie.rating}     
               </label>
               <br/>
               <label style={editStyle}> Description:

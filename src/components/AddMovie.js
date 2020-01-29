@@ -6,6 +6,7 @@ import axios from 'axios';
 import ReactStars from 'react-stars';
 
 
+
 class AddMovie extends React.Component{
   constructor(props){
     super(props);
@@ -74,7 +75,7 @@ class AddMovie extends React.Component{
                   minLength = '1'
                   maxLength = '40'
                   required = 'required'
-                  placeholder = 'Title...'
+                  placeholder = 'Must contain at least one and max forty characters... '
                   onChange = {(e) => this.setState({ title: e.target.value })} />
               </label>
               <br/>
@@ -86,7 +87,7 @@ class AddMovie extends React.Component{
                   minLength = '1'
                   maxLength = '40'
                   required = 'required'
-                  placeholder = 'Director...'
+                  placeholder = 'Must contain at least one and max forty characters...'
                   onChange = {(e) => this.setState({ director: e.target.value })} />
               </label>
               <br/>
@@ -111,7 +112,7 @@ class AddMovie extends React.Component{
                   minLength = '1'
                   maxLength = '300'
                   required = 'required'
-                  placeholder = 'Description...'
+                  placeholder = 'Must contain at least one and max tree hundred characters... ...'
                   onChange = {(e) => this.setState({ description: e.target.value })} />
               </label>
               <br/>
